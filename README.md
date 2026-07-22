@@ -7,43 +7,19 @@
 
 ---
 
-## 🚀 在 Mac 上运行
+## 🚀 运行（Mac 上 3 步）
 
-### 前提条件
+**前提**：App Store 搜 Xcode 安装（免费）
 
-- macOS 14+（Sonoma 或更新）
-- Xcode 15+（[App Store 下载](https://apps.apple.com/app/xcode/id497799835)）
-- 字体安装（可选但推荐）：
-  - [Fredoka](https://fonts.google.com/specimen/Fredoka) — 标题字体
-  - [Nunito](https://fonts.google.com/specimen/Nunito) — 正文字体
-
-> 如果未安装 Fredoka/Nunito，App 会自动降级到系统字体，不影响运行。
-
-### 步骤
-
-1. **克隆仓库**
 ```bash
-git clone https://github.com/YOUR_USERNAME/english-detective.git
+git clone git@github.com:bzqihi-collab/english-detective.git
 cd english-detective
+xed .
 ```
 
-2. **创建 Xcode 项目**
-   - 打开 Xcode → New Project → iOS → App
-   - Product Name: `EnglishDetective`
-   - Interface: SwiftUI
-   - Language: Swift
-   - Minimum Deployment: iOS 17.0
-   - 保存到仓库根目录（会提示合并，选择 **Replace** 跳过 Xcode 自动生成的空文件）
+然后插上 iPad，选你的设备，点 ▶️ 运行。
 
-3. **将源文件拖入项目**
-   - 在 Xcode 左侧 Project Navigator 中，右键点击 `EnglishDetective` 文件夹
-   - 选择 "Add Files to EnglishDetective..."
-   - 选中仓库中的 `EnglishDetective/` 子目录（Theme、Models、Views 及所有 .swift 文件）
-   - 勾选 "Copy items if needed"，点击 Add
-
-4. **运行**
-   - 选择目标设备：**iPad Air 11-inch (simulator)** 或你的 iPad 真机
-   - ⌘R 运行
+> 字体 Fredoka/Nunito 可选安装，不装也能跑。
 
 ---
 
